@@ -6,7 +6,7 @@
 	<groupId>pas.cloud.webapp</groupId>
 	<artifactId>BluemixSpringBootJPA</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<!-- For embeded Tomcat
+	<!-- For embedded Tomcat
 	<packaging>jar</packaging>
 	-->
 	<!-- For WLP -->
