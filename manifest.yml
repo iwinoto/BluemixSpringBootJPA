@@ -1,13 +1,9 @@
-declared-services:
-  pas-mysql:
-    label: cleardb
-    plan: spark
+---
 applications:
-- name: bluemix-springboot
+- name: BluemixSpringBootJPA
   memory: 512M
-  instances: 1
-  host: pasdemo-${random-word}
-  buildpack: java_buildpack
-  path: ./target/BluemixSpringBootJPA-0.0.1-SNAPSHOT.jar
+  host: iw-springboot-demo
+  domain: mybluemix.net
+  path: ./target/BluemixSpringBootJPA.war
   services:
-    - pas-mysql
+  - pas-mysql
